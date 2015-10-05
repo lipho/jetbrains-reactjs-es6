@@ -1,89 +1,74 @@
-# sublime-react
+# JetBrains : IntelliJ IDEA || PHPStorm || WebStorm || ...
 
-Snippets for ReactJS. This package used to provide JSX syntax highlighting and has been DEPRECATED in favor of [babel/babel-sublime](https://github.com/babel/babel-sublime).
+Live Templates for JetBrains IDE. This package if a fork from [sublime-react](https://github.com/reactjs/sublime-react), updated with ES6 flavor for PHPStorm (and any other JetBrains IDE).
 
-![alt tag](https://raw.github.com/jgebhardt/sublime-react/master/docs/img/sr-rcc-out.gif)
 
 ## Installation
 
-Install the React package via Sublime's Package Manager
+1) Download and copy the *xml* file(s) to your templates folder:
 
-You will need the Sublime [Package Manager](https://sublime.wbond.net/installation).
 
-- Open the command palette: `⌘+shift+p` on MacOS/Linux, `ctrl+shift+p` on Windows
+- Windows: `<your home directory>\.<product name><version number>\config\templates`
 
-- type `install`, select `Package Control: Install Package`
+- Linux: `~\.<product name><version number>\config\templates`
 
-- type `React`, select `ReactJS`
+- OS X: `~/Library/Preferences/<product name><version number>/templates`
 
-## Usage
+2) Restart your JetBrains' IDE
 
-### Syntax highlighting
+3) To see all templates, go to *Preferences->Live Templates* and expand the Template Group.
 
-*Syntax highlighting is no longer provided by this packages*. We recommend that you use ([babel-sublime](https://github.com/babel/babel-sublime)) instead.
 
-### Snippets
+## Live Templates
 
-It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
+It's easy! Simply activate live templates by typing a mnemonic followed by TAB.
 
-![alt tag](https://raw.github.com/jgebhardt/sublime-react/master/docs/img/sr-snippets-out.gif)
 
-Snippets are available for both JSX and CJSX ([React CoffeeScript](https://github.com/jsdf/coffee-react-transform)).
-
-#### Documentation of available snippets (JSX):
+#### Documentation of available templates (JSX):
 
 ```
-    cdm→  componentDidMount: fn() { ... }
+    rcc→    Create a new React.JS component
 
-   cdup→  componentDidUpdate: fn(pp, ps) { ... }
+    ren→    React: render:  { return ... }
 
-     cs→  var cx = React.addons.classSet;
+    cwm→    React: componentWillMount() { ... }
 
-    cwm→  componentWillMount: fn() { ... }
+    cdm→    React: componentDidMount() { ... }
 
-    cwr→  componentWillReceiveProps: fn(np) { ... }
+    cwr→    React: componentWillReceiveProps(np) { ... }
 
-    cwu→  componentWillUpdate: fn(np, ns) { ... }
+    cwu→    React: componentWillUpdate(np, ns) { ... }
 
-   cwun→  componentWillUnmount: fn() { ... }
+    cdup→   React: componentDidUpdate(pp, ps) { ... }
 
-     cx→  cx({ ... })
+    scu→    React: shouldComponentUpdate(np, ns) { ... }
 
-    fdn→  React.findDOMNode(...)
+    cwun→   React: shouldComponentUpdate(np, ns) { ... }
 
-    fup→  forceUpdate(...)
+    gdp→    React: defaultProps { ... }
 
-    gdp→  getDefaultProps: fn() { return {...} } 
+    pt→     React: propTypes { ... }
 
-    gis→  getInitialState: fn() { return {...} } 
+    gis→    React: state = { ... }
 
-    ism→  isMounted()
+    sst→    React: this.setState({ ... })
 
-  props→  this.props.
+    state→  React: this.state.
 
-     pt→  propTypes { ... }
+    ism→    React: isMounted()
 
-    rcc→  component skeleton
 
-   refs→  this.refs.
 
-    ren→  render: fn() { return ... }
 
-    scu→  shouldComponentUpdate: fn(np, ns) { ... }
 
-    sst→  this.setState({ ... })
 
-  state→  this.state.
+
+
+
+
+
+
+
+
 
 ```
-
-## Contributing
-
-### Rebuilding the docs
-
-After making changes to snippet files, run `npm install && npm run build-docs` to automatically generate this document from source. **Do not** make changes to README.md directly.
-
-### Contributor License Agreement
-
-Contributions are very welcome, but we ask that you please fill out our [CLA](https://code.facebook.com/cla) in order for us to accept your pull request.
-

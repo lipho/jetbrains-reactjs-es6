@@ -1,0 +1,145 @@
+<templateSet group="ReactJS">
+  <template name="rcc" value="import React from 'react'&#10;&#10;export default $class$ extends React.Component {&#10;&#10;  render() {&#10;    return (&#10;      &lt;div /&gt;&#10;    )&#10;  }&#10;&#10;}" description="Create a new React.JS component" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cs" value="var cx = React.addons.classSet" description="React: var cx = React.addons.classSet;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cdm" value="componentDidMount() {&#10;  $END$&#10;}" description="React: componentDidMount() { ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cdup" value="componentDidUpdate(prevProps, prevState) {&#10;  $END$&#10;}" description="React: componentDidUpdate(pp, ps) { ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cwm" value="componentWillMount() {&#10;  $END$&#10;}" description="React: componentWillMount() { ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cwr" value="componentWillReceiveProps(nextProps) {&#10;  $END$&#10;}" description="React: componentWillReceiveProps(np) { ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cwun" value="componentWillUnmount() {&#10;  $END$&#10;}" description="React: shouldComponentUpdate(np, ns) { ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cwu" value="componentWillUpdate(nextProps, nextState) {&#10;  $END$&#10;}" description="React: componentWillUpdate(np, ns) { ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cw" value="cx({&#10;  $END$: &#10;})" description="React: cx({ ... })" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fup" value="forceUpdate($call$)" description="React: forceUpdate(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="call" expression="" defaultValue="callback" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="gdp" value="static defaultProps = {&#10;  $END$&#10;}" description="React: defaultProps { ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="gis" value="state = {&#10;  $END$&#10;}" description="React: state = { ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ism" value="isMounted()" description="React: isMounted()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pt" value="static propTypes = {&#10;  $END$: React.PropTypes.string&#10;}" description="React: propTypes { ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ren" value="render() {&#10;  return (&#10;    &lt;div /&gt;$END$&#10;  )&#10;}" description="React: render:  { return ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sst" value="this.setState({&#10;  $START$: $END$ &#10;})" description="React: this.setState({ ... })" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="scu" value="shouldComponentUpdate(nextProps, nextState) {&#10;  $END$&#10;}" description="React: shouldComponentUpdate(np, ns) { ... }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="props" value="this.props.$END$" description="React: this.props." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="refs" value="this.refs.$END$" description="React: this.refs." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="state" value="this.state.$END$" description="React: this.state." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
