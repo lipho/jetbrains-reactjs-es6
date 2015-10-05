@@ -57,18 +57,4 @@ It's easy! Simply activate live templates by typing a mnemonic followed by TAB.
 
     ism→    React: isMounted()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
